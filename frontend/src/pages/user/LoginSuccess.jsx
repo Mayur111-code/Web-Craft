@@ -49,7 +49,7 @@ const LoginSuccess = () => {
             
             <div className="mt-8 text-center space-y-2">
                 <h2 className="text-xl font-black tracking-tight italic">
-                    INFINA<span className="text-blue-500">.</span>TECH
+                    WEB<span className="text-blue-500">.</span>CRAFT
                 </h2>
                 <p className="text-slate-400 text-sm font-medium animate-pulse">
                     Securing your session & syncing profile...
