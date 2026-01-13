@@ -2,7 +2,7 @@ import axios from 'axios';
 
 
  const BASE_URL = 'https://web-craft.onrender.com/api';
-//const BASE_URL = "http://localhost:5000/api"
+
 
 
 const API = axios.create({
