@@ -81,7 +81,7 @@ const Login = () => {
     };
 
     const handleGoogleLogin = () => {
-       window.location.href = 'https://tech-k27j.onrender.com/api/user/google';
+       window.location.href = 'https://web-craft.onrender.com/api/user/google';
     };
 
     const handleForgotPassword = () => {
