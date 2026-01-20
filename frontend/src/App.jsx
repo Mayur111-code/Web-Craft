@@ -25,6 +25,7 @@ import ManageProjects from './pages/admin/ManageProjects';
 import ManageBlogs from './pages/admin/ManageBlogs';
 import Footer from './components/layout/Footer';
 import GlobalPresence from './pages/user/GlobalPresence';
+import Documentation from './pages/Documentation';
 
 
 const LayoutHandler = ({ children }) => {
@@ -71,6 +72,7 @@ function App() {
                         <Route path='/blogs' element={<Blogs />} />
                         <Route path='/contact' element={<Contact />} />
                         <Route path="/login-success" element={<LoginSuccess />} />
+                        <Route path="/docs" element={<Documentation />} />
 
                         {/* --- USER AUTH --- */}
                         <Route path="/login" element={<Login />} />

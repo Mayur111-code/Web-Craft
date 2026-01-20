@@ -23,7 +23,7 @@ const Footer = () => {
       title: 'Resources',
       links: [
         { name: 'Documentation', path: '/docs' },
-        { name: 'Case Studies', path: '/case-studies' },
+        { name: 'Case Studies', path: '/projects' },
         { name: 'Help Center', path: '/help' },
       ]
     }
