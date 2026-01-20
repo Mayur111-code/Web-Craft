@@ -129,7 +129,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-gray-500 text-xs font-medium">
-            © {currentYear} WEB CRAFT. Built for the future.
+            © {currentYear} WEB CRAFT❤️. Built for the future.
           </p>
           <div className="flex gap-6">
             <Link to="/privacy" className="text-gray-500 hover:text-white text-xs transition-colors">Privacy Policy</Link>
