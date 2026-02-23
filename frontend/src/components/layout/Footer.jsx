@@ -31,7 +31,7 @@ const Footer = () => {
 
   const contactItems = [
     { icon: <MapPin size={16} />, text: 'Pune, MH, India', color: 'text-emerald-400' },
-    { icon: <Mail size={16} />, text: 'contact@webcraft.com', color: 'text-purple-400' },
+    { icon: <Mail size={16} />, text: 'webcarftservices@gmail.com', color: 'text-purple-400' },
   ];
 
   return (
