@@ -180,7 +180,7 @@ const Footer = () => {
 
   const contactItems = [
     { icon: <MapPin size={16} />, text: 'Pune, MH, India', color: 'text-emerald-400', href: null },
-    { icon: <Mail size={16} />, text: 'webcraftservices@gmail.com', color: 'text-purple-400', href: 'mailto:webcraftservices@gmail.com' },
+    { icon: <Mail size={16} />, text: 'itserviceswebcraft@gmail.com', color: 'text-purple-400', href: 'mailto:itserviceswebcraft@gmail.com' },
   ];
 
   const socialLinks = [
