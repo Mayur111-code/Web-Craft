@@ -67,7 +67,7 @@ const Contact = () => {
           <p className="text-gray-400 text-lg">Have an idea? We have the execution power.</p>
           
           <div className="space-y-4">
-            {[{ icon: <MapPin />, text: "Pune, India" }, { icon: <Mail />, text: "webcarftservices@gmail.com" }].map((item, i) => (
+            {[{ icon: <MapPin />, text: "Pune, India" }, { icon: <Mail />, text: "itserviceswebcraft@gmail.com" }].map((item, i) => (
               <div key={i} className="flex items-center gap-4 p-4 bg-gray-900/50 rounded-2xl border border-gray-800">
                 <div className="text-emerald-400">{item.icon}</div>
                 <span className="font-medium">{item.text}</span>
