@@ -17,7 +17,7 @@ router.get('/google/callback',
        
         const token = jwt.sign({ id: req.user._id }, process.env.JWT_SECRET, { expiresIn: '30d' });
         
-       const frontendURL = `https://web-craft-services.vercel.app/login-success?token=${token}&name=${encodeURIComponent(req.user.name)}&email=${req.user.email}&id=${req.user._id}`;
+       const frontendURL = `https://sss-grow-tech.vercel.app/login-success?token=${token}&name=${encodeURIComponent(req.user.name)}&email=${req.user.email}&id=${req.user._id}`;
 res.redirect(frontendURL);
         
         res.redirect(frontendURL);
